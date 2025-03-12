@@ -28,7 +28,10 @@ jobs:
         run: '[ -d "./pdf" ] || mkdir -p "./pdf"'
 
       - name: Convert Markdown to PDF
-        run: pandoc RESUME.md -o ./pdf/RESUME-${{ env.DATE }}.pdf --pdf-engine=xelatex
+        run: |
+          pandoc RESUME.md -o pdf/RESUME-${{ env.DATE }}.pdf --pdf-engine=xelatex \
+          -V papersize=a4 \
+          -V geometry:top=20mm,bottom=20mm,left=20mm,right=20mm
 
       - name: Configure Git
         run: |
