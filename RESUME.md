@@ -21,21 +21,21 @@ Passionate and results-driven **Head of Software Architecture** with over **20 y
 ### **Professional Experience**
 
 #### **Head of Software Architecture | Trustly**  
-*Sep 2022 – Feb 2025*  
+*Sep 2022 – Feb 2025 | Vitoria, ES, Brazil*  
 - Led the **architecture strategy** for a high-volume payment platform, ensuring **99.99% uptime** and seamless scalability.
 - Implemented **real-time monitoring and failover strategies**, preventing downtime during peak transactions such as **Super Bowl events**.
 - Spearheaded **multi-disciplinary collaboration** with DevOps, SecOps, GRC, Product, and Business teams to align **technical solutions with company objectives**.
 - **Optimized system performance**, reducing transaction latency by **40%**, improving customer satisfaction and operational efficiency.
 
 #### **Senior Software Specialist | Singular Ideas**  
-*Apr 2005 – Sep 2022*  
+*Apr 2005 – Sep 2022 | Uberlândia, MG, Brazil*  
 - Founded and scaled a **SaaS startup**, successfully launching multiple **cloud-based products**.
 - Designed and deployed **resilient cloud solutions**, ensuring **99.95% uptime** while optimizing cost efficiency.
 - Led **end-to-end product development**, driving innovation in **mobile and web applications**.
 - Improved **code efficiency** and security, reducing technical debt and enhancing maintainability.
 
 #### **Product Chief Architect | Aurea Software**  
-*Sep 2015 – Aug 2022*  
+*Sep 2015 – Aug 2022 | Austin, TX, United States*  
 - Led **enterprise software modernization** for multiple products under the **Aurea Software umbrella**, including **Lyris, Prysm, Fogbugz, DevFactory, and Crossover**.
 - **Lyris:** Spearheaded the **modernization of an advanced email marketing automation platform**, optimizing **engagement, deliverability, and campaign analytics** using **cloud-based architectures**.
 - **FogBugz:** Improved **issue tracking and project management software**, integrating AI-driven **bug prioritization** and **workflow automation** to enhance developer productivity.
@@ -49,12 +49,12 @@ Passionate and results-driven **Head of Software Architecture** with over **20 y
 - Played a pivotal role in **global talent acquisition and management**, optimizing engineering productivity through data-driven insights and an elite remote workforce strategy.
 
 #### **Founder | LigFlat Telecom**  
-*Aug 2013 – Dec 2019*  
+*Aug 2013 – Dec 2019 | Uberlândia, MG, Brazil*  
 - Designed and developed **BSS/OSS platforms**, improving **telecom service automation** and reducing operational costs.
 - Ensured **high availability** of telecom infrastructure through **scalable architecture and robust security measures**.
 
 #### **Engineering & IT Leadership Roles | Algar Telecom**  
-*Various Positions | 2010 – 2013*  
+*Jul 2010 – Dec 2012 | Uberlândia, MG, Brazil*  
 - Led development and maintenance of **E-commerce, VoIP, and portal solutions**, optimizing **system reliability and performance**.
 - Architected an **automated broadband sales platform**, integrating CRM, provisioning, and logistics.
 - Managed **software quality assurance**, ensuring IT services delivered **tangible business value**.
