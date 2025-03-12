@@ -1,0 +1,33 @@
+name: Convert Markdown to PDF
+
+on:
+  push:
+    paths:
+      - "ARTICLE.md"
+  workflow_dispatch:
+
+jobs:
+  convert-md-to-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y pandoc texlive-xetex
+
+      - name: Get current date
+        run: echo "DATE=$(date +%Y-%m-%d)" >> $GITHUB_ENV
+
+      - name: Convert Markdown to PDF
+        run: |
+          pandoc ARTICLE.md -o ARTICLE-${{ env.DATE }}.pdf --pdf-engine=xelatex -V geometry:margin=1in
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: article-pdf
+          path: ARTICLE-${{ env.DATE }}.pdf
