@@ -2,6 +2,7 @@
 
 ![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 ![PDF](https://img.shields.io/badge/PDF-Generated-brightgreen?style=for-the-badge&logo=adobeacrobatreader&logoColor=red)
+
 ![GitHub Actions](https://github.com/luismr/resume/actions/workflows/convert-md-to-pdf.yml/badge.svg)
 
 Welcome to my resume repository! This project contains my professional resume, and while contributions to improve **GitHub Actions automation** and repository workflows are welcome, **the content of the resume itself belongs to me**.

@@ -3,7 +3,7 @@ name: Convert Markdown to PDF
 on:
   push:
     paths:
-      - "ARTICLE.md"
+      - "RESUME.md"
   workflow_dispatch:
 
 jobs:
@@ -24,10 +24,10 @@ jobs:
 
       - name: Convert Markdown to PDF
         run: |
-          pandoc ARTICLE.md -o ARTICLE-${{ env.DATE }}.pdf --pdf-engine=xelatex -V geometry:margin=1in
+          pandoc RESUME.md -o RESUME-${{ env.DATE }}.pdf --pdf-engine=xelatex -V geometry:margin=1in
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v3
         with:
-          name: article-pdf
-          path: ARTICLE-${{ env.DATE }}.pdf
+          name: resume-pdf
+          path: RESUME-${{ env.DATE }}.pdf
