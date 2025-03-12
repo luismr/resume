@@ -71,7 +71,6 @@ Passionate and results-driven **Head of Software Architecture** with over **20 y
 - **CI/CD & Automation**: Jenkins, Bamboo, GitLab CI/CD, Terraform, Ansible, Docker, GitOps
 - **DevOps & Agile**: CI/CD, Docker, GitOps, Scrum, Kanban
 
-
 ### **Certifications**
 
 - **Java Certified Programmer (JCP) 6**

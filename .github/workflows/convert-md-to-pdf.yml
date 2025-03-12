@@ -31,8 +31,7 @@ jobs:
         run: |
           pandoc RESUME.md -o pdf/RESUME-${{ env.DATE }}.pdf --pdf-engine=xelatex \
           -V papersize=a4 \
-          -V geometry:top=25mm,bottom=25mm,left=25mm,right=25mm \
-          --wrap=none
+          -V geometry:top=25mm,bottom=25mm,left=25mm,right=25mm 
 
       - name: Configure Git
         run: |
