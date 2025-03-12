@@ -8,7 +8,7 @@ on:
 
 jobs:
   convert-md-to-pdf:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04  # Use a specific version for better stability
 
     steps:
       - name: Checkout repository
@@ -27,7 +27,7 @@ jobs:
           pandoc RESUME.md -o RESUME-${{ env.DATE }}.pdf --pdf-engine=xelatex -V geometry:margin=1in
 
       - name: Upload PDF artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4  # Updated from v3 to v4
         with:
           name: resume-pdf
           path: RESUME-${{ env.DATE }}.pdf
