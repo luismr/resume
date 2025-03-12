@@ -8,7 +8,7 @@ on:
 
 jobs:
   convert-md-to-pdf:
-    runs-on: ubuntu-latest  # Using latest available Ubuntu runner
+    runs-on: ubuntu-latest  # Use latest available Ubuntu runner
 
     steps:
       - name: Checkout repository
@@ -16,8 +16,10 @@ jobs:
         with:
           persist-credentials: true  # Ensure authentication for pushing
 
-      - name: Install Pandoc
-        run: sudo apt update && sudo apt install -y pandoc
+      - name: Install Pandoc and XeLaTeX
+        run: |
+          sudo apt update
+          sudo apt install -y pandoc texlive-xetex
 
       - name: Get current date
         run: echo "DATE=$(date +%Y%m%d)" >> $GITHUB_ENV
