@@ -1,6 +1,10 @@
 # Luis Machado Reis
-📍 Balneário Piçarras, Santa Catarina, Brazil | ☎️ +55 (34) 99889-5371 | 📪 [luis.reis@singularideas.com.br](mailto\:luis.reis@singularideas.com.br)\
-🌎[LinkedIn: linkedin.com/in/luismachadoreis](linkedin.com/in/luismachadoreis) | 🌎 [GitHub: github.com/luismr](https://github.com/luismr) | 🌎 [Website: luismachadoreis.dev.br](https://luismachadoreis.dev.br)
+* Balneário Piçarras, Santa Catarina, Brazil
+* **Phone:** +55 (34) 99889-5371 | **Email:** [luis.reis@singularideas.com.br](mailto\:luis.reis@singularideas.com.br)
+* **LinkedIn:** [linkedin.com/in/luismachadoreis](linkedin.com/in/luismachadoreis)
+* **GitHub:** [github.com/luismr](https://github.com/luismr)
+* **Website:** [luismachadoreis.dev.br](https://luismachadoreis.dev.br)
+
 
 ### **Professional Summary**
 
