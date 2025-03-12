@@ -10,7 +10,7 @@ Passionate and results-driven **Head of Software Architecture** with over **20 y
 **Core Expertise:**
 
 - **Software Architecture & Development**: Java, .NET, Python, Microservices, Modular Monolith, Monolith Migrations
-- **Cloud & SaaS Solutions**: AWS, Azure, Google Cloud
+- **Cloud & SaaS Solutions**: AWS, Google Cloud
 - **Agile & DevOps**: Scrum, CI/CD, Automation
 - **Fintech & Telecom**: Payments, Security, High-Availability Systems
 - **Leadership & Mentorship**: Scaling and Coaching Engineering Teams
@@ -60,7 +60,7 @@ Passionate and results-driven **Head of Software Architecture** with over **20 y
 ### **Technical Skills**
 
 - **Programming Languages**: Java, C#, Python, JavaScript, TypeScript
-- **Cloud & Infrastructure**: AWS, Azure, Google Cloud, Kubernetes, Terraform, Ansible
+- **Cloud & Infrastructure**: AWS, Google Cloud, Kubernetes, Terraform, Ansible
 - **Software Architecture**: Microservices, Monolith, Modular Monolith, Monolith Migrations, Integration Patterns, Domain-Driven Design
 - **Databases**: PostgreSQL, MySQL, SQL Server
 - **Frameworks & Tools**: Spring, Spring Boot, .NET Core, Hibernate, React, Node.js
