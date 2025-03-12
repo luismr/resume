@@ -29,13 +29,6 @@ Passionate and results-driven **Head of Software Architecture** with over **20 y
 - Spearheaded **multi-disciplinary collaboration** with DevOps, SecOps, GRC, Product, and Business teams to align **technical solutions with company objectives**.
 - **Optimized system performance**, reducing transaction latency by **40%**, improving customer satisfaction and operational efficiency.
 
-#### **Senior Software Specialist | Singular Ideas**  
-*Apr 2005 – Sep 2022 | Uberlândia, MG, Brazil*  
-- Founded and scaled a **SaaS startup**, successfully launching multiple **cloud-based products**.
-- Designed and deployed **resilient cloud solutions**, ensuring **99.95% uptime** while optimizing cost efficiency.
-- Led **end-to-end product development**, driving innovation in **mobile and web applications**.
-- Improved **code efficiency** and security, reducing technical debt and enhancing maintainability.
-
 #### **Product Chief Architect | Aurea Software**  
 *Sep 2015 – Aug 2022 | Austin, TX, United States*  
 - Led **enterprise software modernization** for multiple products under the **Aurea Software umbrella**, including **Lyris, Prysm, Fogbugz, DevFactory, and Crossover**.
@@ -50,13 +43,20 @@ Passionate and results-driven **Head of Software Architecture** with over **20 y
 - Managed large-scale **software factory operations**, driving **automation and AI-powered development strategies**.
 - Played a pivotal role in **global talent acquisition and management**, optimizing engineering productivity through data-driven insights and an elite remote workforce strategy.
 
+#### **Senior Software Specialist | Singular Ideas**  
+*Apr 2005 – Sep 2022 | Uberlandia, MG, Brazil*  
+- Founded and scaled a **SaaS startup**, successfully launching multiple **cloud-based products**.
+- Designed and deployed **resilient cloud solutions**, ensuring **99.95% uptime** while optimizing cost efficiency.
+- Led **end-to-end product development**, driving innovation in **mobile and web applications**.
+- Improved **code efficiency** and security, reducing technical debt and enhancing maintainability.
+
 #### **Founder | LigFlat Telecom**  
-*Aug 2013 – Dec 2019 | Uberlândia, MG, Brazil*  
+*Aug 2013 – Dec 2019 | Uberlandia, MG, Brazil*  
 - Designed and developed **BSS/OSS platforms**, improving **telecom service automation** and reducing operational costs.
 - Ensured **high availability** of telecom infrastructure through **scalable architecture and robust security measures**.
 
-#### **Engineering & IT Leadership Roles | Algar Telecom**  
-*Jul 2010 – Dec 2012 | Uberlândia, MG, Brazil*  
+#### **Engineering Leadership Roles | Algar Telecom**  
+*Jul 2010 – Dec 2012 | Uberlandia, MG, Brazil*  
 - Led development and maintenance of **E-commerce, VoIP, and portal solutions**, optimizing **system reliability and performance**.
 - Architected an **automated broadband sales platform**, integrating CRM, provisioning, and logistics.
 - Managed **software quality assurance**, ensuring IT services delivered **tangible business value**.
