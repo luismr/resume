@@ -24,8 +24,11 @@ jobs:
       - name: Get current date
         run: echo "DATE=$(date +%Y%m%d)" >> $GITHUB_ENV
 
+      - name: Checking PDF output folder
+        run: '[ -d "./pdf" ] || mkdir -p "./pdf"'
+
       - name: Convert Markdown to PDF
-        run: pandoc RESUME.md -o RESUME-${{ env.DATE }}.pdf --pdf-engine=xelatex
+        run: pandoc RESUME.md -o ./pdf/RESUME-${{ env.DATE }}.pdf --pdf-engine=xelatex
 
       - name: Configure Git
         run: |
@@ -36,6 +39,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git add RESUME-${{ env.DATE }}.pdf
+          git add pdf/RESUME-${{ env.DATE }}.pdf
           git commit -m "Automated update: Convert RESUME.md to RESUME-${{ env.DATE }}.pdf [skip ci]" || exit 0
           git push origin HEAD:main
