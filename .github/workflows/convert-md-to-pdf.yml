@@ -19,7 +19,8 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt update
-          sudo apt install -y pandoc texlive-xetex fonts-dejavu fonts-noto fonts-noto-color-emoji
+          sudo apt install -y pandoc texlive-xetex fonts-dejavu fonts-noto fonts-noto-color-emoji \
+          texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
 
       - name: Get current date
         run: echo "DATE=$(date +%Y-%m-%d)" >> $GITHUB_ENV
@@ -27,11 +28,10 @@ jobs:
       - name: Convert Markdown to PDF
         run: |
           pandoc RESUME.md -o RESUME.pdf --pdf-engine=xelatex \
-          -V mainfont="DejaVu Sans" \
+          -V mainfont="Noto Sans CJK SC" \
           -V sansfont="Noto Sans" \
-          -V monofont="DejaVu Sans Mono" \
+          -V monofont="Noto Mono" \
           -V mathfont="Latin Modern Math" \
-          -V fontfamily="Noto Sans" \
           -V geometry:margin=1in
 
       - name: Configure Git
