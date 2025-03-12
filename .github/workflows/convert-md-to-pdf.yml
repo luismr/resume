@@ -1,4 +1,4 @@
-name: Convert Markdown to PDF
+name: Convert Markdown to PDF and Commit to Repo
 
 on:
   push:
@@ -8,26 +8,37 @@ on:
 
 jobs:
   convert-md-to-pdf:
-    runs-on: ubuntu-22.04  # Use a specific version for better stability
+    runs-on: ubuntu-22.04  # Use a stable Ubuntu version
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false  # Required for committing changes
 
       - name: Install dependencies
         run: |
           sudo apt update
-          sudo apt install -y pandoc texlive-xetex
+          sudo apt install -y pandoc texlive-xetex fonts-dejavu
 
       - name: Get current date
         run: echo "DATE=$(date +%Y-%m-%d)" >> $GITHUB_ENV
 
       - name: Convert Markdown to PDF
         run: |
-          pandoc RESUME.md -o RESUME-${{ env.DATE }}.pdf --pdf-engine=xelatex -V geometry:margin=1in
+          pandoc RESUME.md -o RESUME.pdf --pdf-engine=xelatex \
+          -V mainfont="DejaVu Sans" \
+          -V geometry:margin=1in
 
-      - name: Upload PDF artifact
-        uses: actions/upload-artifact@v4  # Updated from v3 to v4
-        with:
-          name: resume-pdf
-          path: RESUME-${{ env.DATE }}.pdf
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and Push Changes
+        run: |
+          git add RESUME.pdf
+          git commit -m "Automated update: Convert RESUME.md to RESUME.pdf [skip ci]" || exit 0
+          git push origin HEAD:main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
