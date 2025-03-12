@@ -10,6 +10,7 @@
 
 Passionate and results-driven **Head of Software Architecture** with over **20 years of experience** designing, building, and optimizing **high-performance, scalable, and resilient software architectures** across fintech, SaaS, and telecom industries. Proven expertise in leading **global teams**, aligning **technology with business strategy**, and driving **innovative cloud solutions**. Adept at modernizing enterprise applications, enhancing software **scalability, security, and performance**, and fostering **high-impact engineering teams**. Fluent in **Portuguese and English**, with professional experience across **Brazil, the US, and Europe**.
 
+
 **Core Expertise:**
 
 - **Software Architecture & Development**: Java, .NET, Python, Microservices, Modular Monolith, Monolith Migrations
@@ -23,7 +24,7 @@ Passionate and results-driven **Head of Software Architecture** with over **20 y
 
 #### **Head of Software Architecture | Trustly**  
 *Sep 2022 – Feb 2025 | Vitoria, ES, Brazil*  
-- Led the **architecture strategy** for a high-volume payment platform, ensuring **99.99% uptime** and seamless scalability.
+›- Led the **architecture strategy** for a high-volume payment platform, ensuring **99.99% uptime** and seamless scalability.
 - Implemented **real-time monitoring and failover strategies**, preventing downtime during peak transactions such as **Super Bowl events**.
 - Spearheaded **multi-disciplinary collaboration** with DevOps, SecOps, GRC, Product, and Business teams to align **technical solutions with company objectives**.
 - **Optimized system performance**, reducing transaction latency by **40%**, improving customer satisfaction and operational efficiency.
