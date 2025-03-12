@@ -55,8 +55,8 @@ Passionate and results-driven **Head of Software Architecture** with over **20 y
 - Designed and developed **BSS/OSS platforms**, improving **telecom service automation** and reducing operational costs.
 - Ensured **high availability** of telecom infrastructure through **scalable architecture and robust security measures**.
 
-#### **Engineering Leadership Roles | Algar Telecom**  
-*Jul 2010 – Dec 2012 | Uberlandia, MG, Brazil*  
+#### **QA Engineering Manager | Algar Telecom**  
+*Jul 2008 – Dec 2012 | Uberlandia, MG, Brazil*  
 - Led development and maintenance of **E-commerce, VoIP, and portal solutions**, optimizing **system reliability and performance**.
 - Architected an **automated broadband sales platform**, integrating CRM, provisioning, and logistics.
 - Managed **software quality assurance**, ensuring IT services delivered **tangible business value**.
