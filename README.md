@@ -7,7 +7,6 @@
 
 Welcome to my resume repository! This project contains my professional resume, and while contributions to improve **GitHub Actions automation** and repository workflows are welcome, **the content of the resume itself belongs to me**.
 
-
 ## 📄 Resume
 
 You can view my resume in Markdown format [here](RESUME.md).
