@@ -62,7 +62,7 @@ Passionate and results-driven **Head of Software Architecture** with over **20 y
 ### **Education**
 - **Universidade da Região da Campanha**  
   *Bachelor in Computer Science* (1997 - 2000)
-  
+
 ### **Technical Skills**
 
 - **Programming Languages**: Java, C#, Python, JavaScript, TypeScript
@@ -74,10 +74,12 @@ Passionate and results-driven **Head of Software Architecture** with over **20 y
 - **DevOps & Agile**: CI/CD, Docker, GitOps, Scrum, Kanban
 
 ## **Certifications**
-- **SCJP 6 (Java Certified Programmer)** – Sun Microsystems *(Mar/2009)*  
-  [Verification](http://www.certmanager.net/sun)
 - **EF SET Certificate™ 75/100 (C2 Proficient)** – EF Standard English Test *(Jul/2022)*  
   [Verification](https://www.efset.org/cert/xDXTBN)
+- **SCEA (Java Certified Enterprise Architect)** – Sun Microsystems *(Oct/2009)*  
+  [Verification](http://www.certmanager.net/sun)
+- **SCJP 6 (Java Certified Programmer)** – Sun Microsystems *(Mar/2009)*  
+  [Verification](http://www.certmanager.net/sun)
 - **AIX 4.1 Administrator** – IBM *(Mar/2003)*
 - **AIX 4.1 User** – IBM *(Mar/2003)*
 - **Conectiva Linux Administrator II** – Conectiva *(Aug/2002)*
