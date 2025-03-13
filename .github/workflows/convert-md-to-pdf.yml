@@ -8,7 +8,7 @@ on:
 
 jobs:
   convert-md-to-pdf:
-    runs-on: ubuntu-latest  # Use latest stable Ubuntu runner
+    runs-on: ubuntu-latest  # Use the latest stable Ubuntu runner
 
     steps:
       - name: Checkout repository
@@ -19,18 +19,21 @@ jobs:
       - name: Install Node.js, Chromium, and Dependencies
         run: |
           sudo apt update
-          sudo apt install -y nodejs npm chromium-browser \
-          libx11-xcb1 libxtst6 libxrandr2
+          sudo apt install -y nodejs npm chromium-browser libx11-xcb1 libxtst6 libxrandr2
 
       - name: Install md-to-pdf
-        run: npm install -g md-to-pdf
+        run: npm install -g md-to-pdf puppeteer
 
       - name: Get current date
         run: echo "DATE=$(date +%Y%m%d)" >> $GITHUB_ENV
 
-      - name: Convert Markdown to PDF using md-to-pdf with --no-sandbox
+      - name: Set Puppeteer Environment Variables
         run: |
-          md-to-pdf RESUME.md --launch-options.args="--no-sandbox --disable-setuid-sandbox"
+          echo "PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser" >> $GITHUB_ENV
+          echo "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true" >> $GITHUB_ENV
+
+      - name: Convert Markdown to PDF using md-to-pdf
+        run: md-to-pdf RESUME.md
 
       - name: Move generated PDF to the pdf/ folder
         run: |
