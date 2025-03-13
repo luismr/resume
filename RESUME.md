@@ -59,6 +59,10 @@ Passionate and results-driven **Head of Software Architecture** with over **20 y
 - Architected an **automated broadband sales platform**, integrating CRM, provisioning, and logistics.
 - Managed **software quality assurance**, ensuring IT services delivered **tangible business value**.
 
+### **Education**
+- **Universidade da Região da Campanha**  
+  *Bachelor in Computer Science* (1997 - 2000)
+  
 ### **Technical Skills**
 
 - **Programming Languages**: Java, C#, Python, JavaScript, TypeScript
@@ -69,10 +73,15 @@ Passionate and results-driven **Head of Software Architecture** with over **20 y
 - **CI/CD & Automation**: Jenkins, Bamboo, GitLab CI/CD, Terraform, Ansible, Docker, GitOps
 - **DevOps & Agile**: CI/CD, Docker, GitOps, Scrum, Kanban
 
-### **Certifications**
-
-- **Java Certified Programmer (JCP) 6**
-
+## **Certifications**
+- **SCJP 6 (Java Certified Programmer)** – Sun Microsystems *(Mar/2009)*  
+  [Verification](http://www.certmanager.net/sun)
+- **EF SET Certificate™ 75/100 (C2 Proficient)** – EF Standard English Test *(Jul/2022)*  
+  [Verification](https://www.efset.org/cert/xDXTBN)
+- **AIX 4.1 Administrator** – IBM *(Mar/2003)*
+- **AIX 4.1 User** – IBM *(Mar/2003)*
+- **Conectiva Linux Administrator II** – Conectiva *(Aug/2002)*
+- **Conectiva Linux Administrator I** – Conectiva *(Apr/2002)*
 
 ### **Projects & Contributions**
 
