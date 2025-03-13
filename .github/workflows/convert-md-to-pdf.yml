@@ -16,11 +16,14 @@ jobs:
         with:
           persist-credentials: true  # Ensure authentication for pushing
 
-      - name: Install Node.js, Puppeteer Dependencies & md-to-pdf
+      - name: Install Node.js, Chromium, and Dependencies
         run: |
           sudo apt update
-          sudo apt install -y nodejs npm libx11-xcb1 libxtst6 libxrandr2 libasound2
-          npm install -g md-to-pdf
+          sudo apt install -y nodejs npm chromium-browser \
+          libx11-xcb1 libxtst6 libxrandr2
+
+      - name: Install md-to-pdf
+        run: npm install -g md-to-pdf
 
       - name: Get current date
         run: echo "DATE=$(date +%Y%m%d)" >> $GITHUB_ENV
