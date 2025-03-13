@@ -8,25 +8,26 @@ on:
 
 jobs:
   convert-md-to-pdf:
-    runs-on: ubuntu-latest  # Use the latest stable Ubuntu runner
+    runs-on: ubuntu-latest  # Use latest stable Ubuntu runner
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: true  # Ensures authentication for pushing
+          persist-credentials: true  # Ensure authentication for pushing
 
-      - name: Install Node.js & md-to-pdf
+      - name: Install Node.js, Puppeteer Dependencies & md-to-pdf
         run: |
           sudo apt update
-          sudo apt install -y nodejs npm
+          sudo apt install -y nodejs npm libx11-xcb1 libxtst6 libxrandr2 libasound2
           npm install -g md-to-pdf
 
       - name: Get current date
         run: echo "DATE=$(date +%Y%m%d)" >> $GITHUB_ENV
 
-      - name: Convert Markdown to PDF using md-to-pdf
-        run: md-to-pdf RESUME.md
+      - name: Convert Markdown to PDF using md-to-pdf with --no-sandbox
+        run: |
+          md-to-pdf RESUME.md --launch-options.args="--no-sandbox --disable-setuid-sandbox"
 
       - name: Move generated PDF to the pdf/ folder
         run: |
