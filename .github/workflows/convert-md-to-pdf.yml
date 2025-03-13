@@ -8,30 +8,30 @@ on:
 
 jobs:
   convert-md-to-pdf:
-    runs-on: ubuntu-latest  # Use latest available Ubuntu runner
+    runs-on: ubuntu-latest  # Use the latest stable Ubuntu runner
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: true  # Ensure authentication for pushing
+          persist-credentials: true  # Ensures authentication for pushing
 
-      - name: Install Pandoc and XeLaTeX
+      - name: Install Node.js & md-to-pdf
         run: |
           sudo apt update
-          sudo apt install -y pandoc texlive-xetex
+          sudo apt install -y nodejs npm
+          npm install -g md-to-pdf
 
       - name: Get current date
         run: echo "DATE=$(date +%Y%m%d)" >> $GITHUB_ENV
 
-      - name: Checking PDF output folder
-        run: '[ -d "./pdf" ] || mkdir -p "./pdf"'
+      - name: Convert Markdown to PDF using md-to-pdf
+        run: md-to-pdf RESUME.md
 
-      - name: Convert Markdown to PDF
+      - name: Move generated PDF to the pdf/ folder
         run: |
-          pandoc RESUME.md -o pdf/RESUME-${{ env.DATE }}.pdf --pdf-engine=xelatex \
-          -V papersize=a4 \
-          -V geometry:top=25mm,bottom=25mm,left=25mm,right=25mm 
+          mkdir -p pdf
+          mv RESUME.pdf pdf/RESUME-${{ env.DATE }}.pdf
 
       - name: Configure Git
         run: |
@@ -43,5 +43,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git add pdf/RESUME-${{ env.DATE }}.pdf
-          git commit -m "Automated update: Convert RESUME.md to RESUME-${{ env.DATE }}.pdf [skip ci]" || exit 0
+          git commit -m "Automated update: Convert RESUME.md to pdf/RESUME-${{ env.DATE }}.pdf [skip ci]" || exit 0
           git push origin HEAD:main
