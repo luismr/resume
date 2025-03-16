@@ -54,3 +54,39 @@ jobs:
           git add pdf/RESUME-${{ env.DATE }}.pdf
           git commit -m "Automated update: Convert RESUME.md to pdf/RESUME-${{ env.DATE }}.pdf [skip ci]" || exit 0
           git push origin HEAD:main
+          
+      - name: Install mailsend-go (if Gmail credentials exist)
+        env:
+          GMAIL_USERNAME: ${{ secrets.GMAIL_USERNAME }}
+          GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
+        run: |
+          if [[ -n "$GMAIL_USERNAME" && -n "$GMAIL_PASSWORD" ]]; then
+            echo "Installing mailsend-go..."
+            curl -L https://github.com/muquit/mailsend-go/releases/download/v1.0.10/mailsend-go_1.0.10_linux_amd64.tar.gz -o mailsend-go.tar.gz
+            tar -xzf mailsend-go.tar.gz
+            sudo mv mailsend-go /usr/local/bin/
+          else
+            echo "Skipping mailsend-go installation: No Gmail credentials found."
+          fi
+
+      - name: Send Email with PDF Attachment (if Gmail credentials exist)
+        env:
+          GMAIL_USERNAME: ${{ secrets.GMAIL_USERNAME }}
+          GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
+        run: |
+          if [[ -n "$GMAIL_USERNAME" && -n "$GMAIL_PASSWORD" ]]; then
+            echo "Sending email with resume PDF..."
+            mailsend-go \
+            -smtp smtp.gmail.com \
+            -port 587 \
+            -auth \
+            -user "$GMAIL_USERNAME" \
+            -pass "$GMAIL_PASSWORD" \
+            -from "$GMAIL_USERNAME" \
+            -to "$GMAIL_USERNAME" \
+            -sub "Updated Resume - ${{ env.DATE }}" \
+            -msg "Attached is your latest resume in PDF format, generated automatically." \
+            -attach "pdf/RESUME-${{ env.DATE }}.pdf"
+          else
+            echo "Skipping email: No Gmail credentials found."
+          fi
