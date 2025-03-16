@@ -1,7 +1,7 @@
 # Luis Machado Reis
 * Balneário Piçarras, Santa Catarina, Brazil
 * **Phone:** +55 (34) 99889-5371 | **Email:** [luis.reis@singularideas.com.br](mailto\:luis.reis@singularideas.com.br)
-* **LinkedIn:** [linkedin.com/in/luismachadoreis](linkedin.com/in/luismachadoreis)
+* **LinkedIn:** [linkedin.com/in/luismachadoreis](https://linkedin.com/in/luismachadoreis)
 * **GitHub:** [github.com/luismr](https://github.com/luismr)
 * **Website:** [luismachadoreis.dev.br](https://luismachadoreis.dev.br)
 
