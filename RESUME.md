@@ -5,6 +5,7 @@
 * **GitHub:** [github.com/luismr](https://github.com/luismr)
 * **Website:** [luismachadoreis.dev.br](https://luismachadoreis.dev.br/)
 
+
 ### **Professional Summary**
 
 Passionate and results-driven **Head of Software Architecture** with over **20 years of experience** designing, building, and optimizing **high-performance, scalable, and resilient software architectures** across fintech, SaaS, and telecom industries. Proven expertise in leading **global teams**, aligning **technology with business strategy**, and driving **innovative cloud solutions**. Adept at modernizing enterprise applications, enhancing software **scalability, security, and performance**, and fostering **high-impact engineering teams**. Fluent in **Portuguese and English**, with professional experience across **Brazil, the US, and Europe**.

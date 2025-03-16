@@ -76,17 +76,17 @@ jobs:
         run: |
           if [[ -n "$GMAIL_USERNAME" && -n "$GMAIL_PASSWORD" ]]; then
             echo "Sending email with resume PDF..."
-            mailsend-go \
-            -smtp smtp.gmail.com \
-            -port 587 \
-            auth \
-            -user "$GMAIL_USERNAME" \
-            -pass "$GMAIL_PASSWORD" \
-            -from "$GMAIL_USERNAME" \
-            -to "$GMAIL_USERNAME" \
-            -sub "Updated Resume - ${{ env.DATE }}" \
-            -msg "Attached is your latest resume in PDF format, generated automatically." \
-            -attach "pdf/RESUME-${{ env.DATE }}.pdf"
+            mailsend-go -smtp smtp.gmail.com -port 587 \
+              -sub "Updated Resume - ${{ env.DATE }}" \
+              auth \
+                -user "$GMAIL_USERNAME" \
+                -pass "$GMAIL_PASSWORD" \
+                -from "$GMAIL_USERNAME" \
+                -to "$GMAIL_USERNAME" \
+              body \
+                -msg "Attached is your latest resume in PDF format, generated automatically." \
+              attach \
+                -file "pdf/RESUME-${{ env.DATE }}.pdf"
           else
             echo "Skipping email: No Gmail credentials found."
           fi
