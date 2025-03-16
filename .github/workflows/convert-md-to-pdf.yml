@@ -64,7 +64,7 @@ jobs:
             echo "Installing mailsend-go..."
             curl -L https://github.com/muquit/mailsend-go/releases/download/v1.0.10/mailsend-go_1.0.10_linux-64bit.tar.gz -o mailsend-go.tar.gz
             tar -xzf mailsend-go.tar.gz
-            sudo mv mailsend-go /usr/local/bin/
+            sudo mv mailsend-go-dir/mailsend-go /usr/local/bin/
           else
             echo "Skipping mailsend-go installation: No Gmail credentials found."
           fi
