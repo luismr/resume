@@ -79,7 +79,7 @@ jobs:
             mailsend-go \
             -smtp smtp.gmail.com \
             -port 587 \
-            -auth \
+            auth \
             -user "$GMAIL_USERNAME" \
             -pass "$GMAIL_PASSWORD" \
             -from "$GMAIL_USERNAME" \
