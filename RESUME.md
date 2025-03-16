@@ -10,7 +10,7 @@
 
 Passionate and results-driven **Head of Software Architecture** with over **20 years of experience** designing, building, and optimizing **high-performance, scalable, and resilient software architectures** across fintech, SaaS, and telecom industries. Proven expertise in leading **global teams**, aligning **technology with business strategy**, and driving **innovative cloud solutions**. Adept at modernizing enterprise applications, enhancing software **scalability, security, and performance**, and fostering **high-impact engineering teams**. Fluent in **Portuguese and English**, with professional experience across **Brazil, the US, and Europe**.
 
-**Core Expertise:**
+#### Core Expertise
 
 - **Software Architecture & Development**: Java, .NET, Python, Microservices, Modular Monolith, Monolith Migrations
 - **Cloud & SaaS Solutions**: AWS, Google Cloud
@@ -18,6 +18,9 @@ Passionate and results-driven **Head of Software Architecture** with over **20 y
 - **Fintech & Telecom**: Payments, Security, High-Availability Systems
 - **Leadership & Mentorship**: Scaling and Coaching Engineering Teams
 
+#### Skills
+
+Software Architecture, Cloud Computing, Backend Development, Java, Spring Boot, .NET, Python, AWS, Kubernetes, Docker, Terraform, CI/CD, DevOps, GitHub Actions, Jenkins, Bamboo, Microservices, Event-Driven Architecture, RabbitMQ, Kafka, SQS, SNS, PostgreSQL, MySQL, Oracle, SQL Server, Neo4j, API Design, REST, GraphQL, Security, OAuth, OpenID, PCI DSS, High-Availability Systems, Performance Optimization, Distributed Systems, Scalable Architecture, System Reliability, Infrastructure as Code, Technical Leadership, Team Building, Mentorship, Agile, Scrum, Software Modernization, Cloud Migrations, Cost Optimization, Observability, Monitoring, Prometheus, Grafana, AWS CloudWatch.
 
 ### **Professional Experience**
 
