@@ -34,11 +34,11 @@ The workflow:
 
 👀 **Ensure Workflow Permissions**: Verify that your repository's settings allow workflows to have write permissions:
 
-   - Navigate to your repository on GitHub.
-   - Click on the "Settings" tab.
-   - In the left sidebar, select "Actions" and then "General".
-   - Under "Workflow permissions", ensure "Read and write permissions" is selected.
-   - Click "Save" to apply the changes.
+   - Navigate to your repository on GitHub.
+   - Click on the "Settings" tab.
+   - In the left sidebar, select "Actions" and then "General".
+   - Under "Workflow permissions", ensure "Read and write permissions" is selected.
+   - Click "Save" to apply the changes.
 
    This setting ensures that workflows have the necessary permissions to make changes to the repository.
 
