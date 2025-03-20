@@ -32,6 +32,16 @@ The workflow:
 ✅ Automatically **commits the generated PDF** to the repository.  
 ✅ (Optional) **Sends an email with the latest resume PDF** if Gmail credentials are configured.  
 
+👀 **Ensure Workflow Permissions**: Verify that your repository's settings allow workflows to have write permissions:
+
+   - Navigate to your repository on GitHub.
+   - Click on the "Settings" tab.
+   - In the left sidebar, select "Actions" and then "General".
+   - Under "Workflow permissions", ensure "Read and write permissions" is selected.
+   - Click "Save" to apply the changes.
+
+   This setting ensures that workflows have the necessary permissions to make changes to the repository.
+
 You can find the workflow configuration in `.github/workflows/convert-md-to-pdf.yml`.  
 
 ### **📬 Email Notifications with Gmail**
