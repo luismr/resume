@@ -1,107 +1,104 @@
 # Luis Machado Reis
-* Balneário Piçarras, Santa Catarina, Brazil
-* **Phone:** +55 (34) 99889-5371 | **Email:** [luis.reis@singularideas.com.br](mailto\:luis.reis@singularideas.com.br)
-* **LinkedIn:** [linkedin.com/in/luismachadoreis](https://linkedin.com/in/luismachadoreis)
-* **GitHub:** [github.com/luismr](https://github.com/luismr)
-* **Website:** [luismachadoreis.dev.br](https://luismachadoreis.dev.br/)
 
+**Location:** Balneário Piçarras, Santa Catarina, Brazil  
+**Phone:** +55 (34) 99889-5371  
+**Email:** luis.reis@singularideas.com.br  
+**LinkedIn:** [linkedin.com/in/luismachadoreis](https://linkedin.com/in/luismachadoreis)  
+**GitHub:** [github.com/luismr](https://github.com/luismr)  
+**Website:** [luismachadoreis.dev.br](https://luismachadoreis.dev.br)  
 
-### **Professional Summary**
+## Professional Summary
 
-Passionate and results-driven **Head of Software Architecture** with over **20 years of experience** designing, building, and optimizing **high-performance, scalable, and resilient software architectures** across fintech, SaaS, and telecom industries. Proven expertise in leading **global teams**, aligning **technology with business strategy**, and driving **innovative cloud solutions**. Adept at modernizing enterprise applications, enhancing software **scalability, security, and performance**, and fostering **high-impact engineering teams**. Fluent in **Portuguese and English**, with professional experience across **Brazil, the US, and Europe**.
+Experienced Software Architect and Engineering Leader with over 20 years of hands-on experience designing, modernizing, and scaling high-performance, resilient systems. Proven track record in fintech, SaaS, and telecom, with deep expertise in cloud-native solutions (AWS, GCP), microservices, DevOps, and full-stack delivery. Skilled in leading global teams, implementing CI/CD pipelines, and aligning architecture with business impact.
 
-#### Core Expertise
+## Core Competencies
 
-- **Software Architecture & Development**: Java, .NET, Python, Microservices, Modular Monolith, Monolith Migrations
-- **Cloud & SaaS Solutions**: AWS, Google Cloud
-- **Agile & DevOps**: Scrum, CI/CD, Automation
-- **Fintech & Telecom**: Payments, Security, High-Availability Systems
-- **Leadership & Mentorship**: Scaling and Coaching Engineering Teams
+- Software Architecture & Modernization  
+- Backend & Full-Stack Engineering (Java, Spring Boot, Python, .NET, React, Angular, Vue)  
+- Cloud Computing (AWS, GCP), Kubernetes, Docker  
+- CI/CD & DevOps (GitHub Actions, Jenkins, Bamboo, Terraform, Ansible)  
+- Frontend Development with React, Vue, Angular, TypeScript  
+- Microservices & Event-Driven Systems (RabbitMQ, Kafka)  
+- Scalable, Secure Systems Design (OAuth2, OpenID, JWT, PCI DSS)  
+- Technical Leadership & Team Mentorship  
+- Performance Optimization & Observability  
+- Agile Development, Remote Team Collaboration
 
-#### Skills
+## Professional Experience
 
-Software Architecture, Cloud Computing, Backend Development, Java, Spring Boot, .NET, Python, AWS, Kubernetes, Docker, Terraform, CI/CD, DevOps, GitHub Actions, Jenkins, Bamboo, Microservices, Event-Driven Architecture, RabbitMQ, Kafka, SQS, SNS, PostgreSQL, MySQL, Oracle, SQL Server, Neo4j, API Design, REST, GraphQL, Security, OAuth, OpenID, PCI DSS, High-Availability Systems, Performance Optimization, Distributed Systems, Scalable Architecture, System Reliability, Infrastructure as Code, Technical Leadership, Team Building, Mentorship, Agile, Scrum, Software Modernization, Cloud Migrations, Cost Optimization, Observability, Monitoring, Prometheus, Grafana, AWS CloudWatch.
+### **Trustly** – Head of Software Architecture  
+**Sep 2022 – Feb 2025 | Vitória, Brazil**  
+- Led cloud-native architecture of real-time payment platform (Java, AWS, Spring Boot)  
+- Designed microservices, CI/CD (GitHub Actions, Bamboo), and automated infrastructure  
+- Achieved 99.99% uptime during high-traffic events like the Super Bowl  
+- Reduced transaction latency by 40% and improved overall reliability  
 
-### **Professional Experience**
+### **Aurea Software** – Product Chief Architect  
+**Sep 2015 – Aug 2022 | Austin, TX (Remote)**  
+- Modernized enterprise SaaS products including Lyris, Prysm, FogBugz, DevFactory  
+- Migrated systems to AWS, introduced Docker/ECS and infrastructure-as-code  
+- Led frontend modernization with React, TypeScript, and component architecture  
+- Delivered DevOps pipelines (Jenkins, GitHub Actions) and code quality automation  
 
-#### **Head of Software Architecture | Trustly**  
-*Sep 2022 – Feb 2025 | Vitoria, ES, Brazil*  
-- Led the **architecture strategy** for a high-volume payment platform, ensuring **99.99% uptime** and seamless scalability.
-- Implemented **real-time monitoring and failover strategies**, preventing downtime during peak transactions such as **Super Bowl events**.
-- Spearheaded **multi-disciplinary collaboration** with DevOps, SecOps, GRC, Product, and Business teams to align **technical solutions with company objectives**.
-- **Optimized system performance**, reducing transaction latency by **40%**, improving customer satisfaction and operational efficiency.
+### **SingularIdeas** – Senior Software Specialist  
+**Apr 2005 – Sep 2022 | Uberlândia, Brazil**  
+- Designed scalable SaaS applications using Java, React, and cloud services  
+- Built full-stack apps with responsive UIs in Angular, Vue, and React  
+- Developed backend APIs, CI/CD pipelines, and cloud-native automation  
 
-#### **Product Chief Architect | Aurea Software**  
-*Sep 2015 – Aug 2022 | Austin, TX, United States*  
-- Led **enterprise software modernization** for multiple products under the **Aurea Software umbrella**, including **Lyris, Prysm, Fogbugz, DevFactory, and Crossover**.
-- **Lyris:** Spearheaded the **modernization of an advanced email marketing automation platform**, optimizing **engagement, deliverability, and campaign analytics** using **cloud-based architectures**.
-- **FogBugz:** Improved **issue tracking and project management software**, integrating AI-driven **bug prioritization** and **workflow automation** to enhance developer productivity.
-- **Prysm:** Led **real-time collaboration and workspace platform enhancements**, ensuring **seamless communication** and **scalability for global teams** through cloud-native solutions.
-- **DevFactory:** Designed and implemented **AI-driven software factory automation**, increasing **development efficiency** and optimizing **large-scale code refactoring** across multiple enterprise products.
-- **Crossover:** Engineered a **data-driven talent management system**, leveraging **AI-powered assessments** to identify and optimize high-performance engineering teams globally.
-- Directed architectural enhancements for **enterprise knowledge management solutions**, improving customer self-service and support efficiency.
-- Spearheaded **AI-driven development methodologies**, increasing engineering productivity across distributed teams.
-- Focused on **software modernization**, cloud computing, **AWS-based scalability**, and **cost-effective enterprise SaaS solutions**.
-- Managed large-scale **software factory operations**, driving **automation and AI-powered development strategies**.
-- Played a pivotal role in **global talent acquisition and management**, optimizing engineering productivity through data-driven insights and an elite remote workforce strategy.
+### **LigFlat Telecom** – Founder & Software Architect  
+**Aug 2013 – Dec 2019 | Uberlândia, Brazil**  
+- Developed complete OSS/BSS platform, integrating VoIP, billing, and CRM  
+- Architected systems using Java, MySQL, and telecom protocols (SMPP, SIP)  
+- Automated network provisioning with Ansible and deployed via Bamboo  
 
-#### **Senior Software Specialist | Singular Ideas**  
-*Apr 2005 – Sep 2022 | Uberlandia, MG, Brazil*  
-- Founded and scaled a **SaaS startup**, successfully launching multiple **cloud-based products**.
-- Designed and deployed **resilient cloud solutions**, ensuring **99.95% uptime** while optimizing cost efficiency.
-- Led **end-to-end product development**, driving innovation in **mobile and web applications**.
-- Improved **code efficiency** and security, reducing technical debt and enhancing maintainability.
+### **Algar Telecom** – QA Engineering Manager  
+**Jul 2008 – Dec 2012 | Uberlândia, Brazil**  
+- Managed software quality, QA processes, and platform optimization  
+- Delivered stable portals and ecommerce platforms with .NET and Oracle  
 
-#### **Founder | LigFlat Telecom**  
-*Aug 2013 – Dec 2019 | Uberlandia, MG, Brazil*  
-- Designed and developed **BSS/OSS platforms**, improving **telecom service automation** and reducing operational costs.
-- Ensured **high availability** of telecom infrastructure through **scalable architecture and robust security measures**.
+## Education
 
-#### **QA Engineering Manager | Algar Telecom**  
-*Jul 2008 – Dec 2012 | Uberlandia, MG, Brazil*  
-- Led development and maintenance of **E-commerce, VoIP, and portal solutions**, optimizing **system reliability and performance**.
-- Architected an **automated broadband sales platform**, integrating CRM, provisioning, and logistics.
-- Managed **software quality assurance**, ensuring IT services delivered **tangible business value**.
+**Bachelor of Computer Science**  
+Universidade da Região da Campanha (1997–2000)
 
-### **Education**
-- **Universidade da Região da Campanha**  
-  *Bachelor in Computer Science* (1997 - 2000)
+## Certifications
 
-### **Technical Skills**
+- **SCEA – Sun Certified Enterprise Architect**  
+- **SCJP 6 – Sun Certified Java Programmer**  
+- **EF SET C2 Proficient – English Certification**  
+- **IBM AIX Administrator / User**  
+- **Conectiva Linux Administrator I & II**
 
-- **Programming Languages**: Java, C#, Python, JavaScript, TypeScript
-- **Cloud & Infrastructure**: AWS, Google Cloud, Kubernetes, Terraform, Ansible
-- **Software Architecture**: Microservices, Monolith, Modular Monolith, Monolith Migrations, Integration Patterns, Domain-Driven Design
-- **Databases**: PostgreSQL, MySQL, SQL Server
-- **Frameworks & Tools**: Spring, Spring Boot, .NET Core, Hibernate, React, Node.js
-- **CI/CD & Automation**: Jenkins, Bamboo, GitLab CI/CD, Terraform, Ansible, Docker, GitOps
-- **DevOps & Agile**: CI/CD, Docker, GitOps, Scrum, Kanban
+## Languages
 
-## **Certifications**
-- **EF SET Certificate™ 75/100 (C2 Proficient)** – EF Standard English Test *(Jul/2022)*  
-  [Verification](https://www.efset.org/cert/xDXTBN)
-- **SCEA (Java Certified Enterprise Architect)** – Sun Microsystems *(Oct/2009)*  
-  [Verification](http://www.certmanager.net/sun)
-- **SCJP 6 (Java Certified Programmer)** – Sun Microsystems *(Mar/2009)*  
-  [Verification](http://www.certmanager.net/sun)
-- **AIX 4.1 Administrator** – IBM *(Mar/2003)*
-- **AIX 4.1 User** – IBM *(Mar/2003)*
-- **Conectiva Linux Administrator II** – Conectiva *(Aug/2002)*
-- **Conectiva Linux Administrator I** – Conectiva *(Apr/2002)*
+- Portuguese: Native  
+- English: Fluent (C2 – Proficient)
 
-### **Projects & Contributions**
+## Projects & Portfolio
 
-#### **Real-Time Payment System for Trustly**
+- **[Real-Time Flight Tracker](https://github.com/luismr/realtime-flight-tracker)**  
+  *Java, Python, TypeScript, React, Kafka*  
+  Scalable architecture to process and visualize live flight events in real-time.
 
-- Designed a **fault-tolerant, scalable payment platform** capable of handling **millions of transactions per second**.
-- Implemented **event-driven architecture** using **Kafka and microservices**, improving transaction throughput.
+- **[Flight Tracker App](https://github.com/luismr/flight-tracker-event-app)**  
+  *React, TypeScript*  
+  Interactive frontend interface for flight event visualization.
 
-#### **Cloud-Native SaaS Platform**
+- **[Heimdall Realm](https://github.com/luismr/heimdall)**  
+  *TypeScript, Express, Serverless, JWT*  
+  Secure access control service built on a serverless stack with JWT authentication.
 
-- Built a **multi-tenant SaaS product**, serving **thousands of customers globally** with **automated scaling**.
+- **[Blueprint Prompts MCP Server](https://github.com/luismr/blueprint-prompts)**  
+  *TypeScript, Node.js, Claude API, Cursor Integration*  
+  Blueprint-based prompt management server to support AI workflows using Claude and Cursor.
 
-### **Languages**
+## Tools & Technologies
 
-- **Portuguese**: Native
-- **English**: Fluent
-
+**Languages & Frameworks:** Java, Spring Boot, .NET, Python, JavaScript, TypeScript, React, Vue, Angular  
+**Cloud & DevOps:** AWS, GCP, Kubernetes, Docker, Terraform, Ansible, Jenkins, Bamboo, GitHub Actions  
+**Architecture:** Microservices, Modular Monolith, Serverless, Event-Driven  
+**Databases:** PostgreSQL, MySQL, SQL Server, Oracle  
+**Messaging & Integration:** Kafka, RabbitMQ, ActiveMQ, SQS  
+**Security:** OAuth2, OpenID, JWT, PCI DSS  
+**Monitoring:** Prometheus, Grafana, AWS CloudWatch
