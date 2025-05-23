@@ -89,6 +89,10 @@ Universidade da Região da Campanha (1997–2000)
   *TypeScript, Express, Serverless, JWT*  
   Secure access control service built on a serverless stack with JWT authentication.
 
+- **[Blueprint Prompts MCP Server](https://github.com/luismr/blueprint-prompts)**  
+  *TypeScript, Node.js, Claude API, Cursor Integration*  
+  Blueprint-based prompt management server to support AI workflows using Claude and Cursor.
+
 ## Tools & Technologies
 
 **Languages & Frameworks:** Java, Spring Boot, .NET, Python, JavaScript, TypeScript, React, Vue, Angular  
@@ -98,4 +102,3 @@ Universidade da Região da Campanha (1997–2000)
 **Messaging & Integration:** Kafka, RabbitMQ, ActiveMQ, SQS  
 **Security:** OAuth2, OpenID, JWT, PCI DSS  
 **Monitoring:** Prometheus, Grafana, AWS CloudWatch
-
