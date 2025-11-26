@@ -5,11 +5,11 @@
 **Email:** luis.reis@singularideas.com.br  
 **LinkedIn:** [linkedin.com/in/luismachadoreis](https://linkedin.com/in/luismachadoreis)  
 **GitHub:** [github.com/luismr](https://github.com/luismr)  
-**Website:** [luismachadoreis.dev.br](https://luismachadoreis.dev.br)  
+**Website:** [luismachadoreis.dev](https://luismachadoreis.dev)  
 
 ## Professional Summary
 
-Experienced Software Architect and Engineering Leader with over 20 years of hands-on experience designing, modernizing, and scaling high-performance, resilient systems. Proven track record in fintech, SaaS, and telecom, with deep expertise in cloud-native solutions (AWS, GCP), microservices, DevOps, and full-stack delivery. Skilled in leading global teams, implementing CI/CD pipelines, and aligning architecture with business impact.
+Experienced Software Architect and Engineering Leader with over 20 years of hands-on experience designing, modernizing, and scaling high-performance, resilient systems. Proven track record in fintech, SaaS, and telecom, with deep expertise in cloud-native solutions (AWS, GCP), microservices, DevOps, and full-stack delivery. Skilled in leading global teams, implementing CI/CD pipelines, and aligning architecture with business impact. Passionate about leveraging AI tools and developing agent-based solutions to support engineering and architecture teams, significantly increasing productivity and accelerating delivery pace.
 
 ## Core Competencies
 
@@ -25,6 +25,23 @@ Experienced Software Architect and Engineering Leader with over 20 years of hand
 - Agile Development, Remote Team Collaboration
 
 ## Professional Experience
+
+### **Sears Home Services** – Senior Software Engineering Manager  
+**Jul 2025 – now | Chicago, USA**  
+
+#### **Service Order Management** – Software Architect
+- Create, Update, Reschedule, Cancel, Lookup service orders
+- Authorizer Service: Client ID and bearer token management
+- Provide closer architecture support for Business/Product areas
+- Provide closer support for SHI (Sears Holding India) Engineers
+
+#### **SHSAI** – Software Engineering Manager
+- AI innovation engine for Sears Home Services, focused on:
+- Agent Development & Orchestration
+- Machine Learning & NLP Solutions
+- AI-Powered Tooling for Technicians
+- Conversational AI (Chat Assistants, Voice AI)
+- Intelligent Routing & Scheduling
 
 ### **Trustly** – Head of Software Architecture  
 **Sep 2022 – Feb 2025 | Vitória, Brazil**  
@@ -92,6 +109,14 @@ Universidade da Região da Campanha (1997–2000)
 - **[Blueprint Prompts MCP Server](https://github.com/luismr/blueprint-prompts)**  
   *TypeScript, Node.js, Claude API, Cursor Integration*  
   Blueprint-based prompt management server to support AI workflows using Claude and Cursor.
+
+- **[Homelabs](https://github.com/luismr/homelabs)**  
+  *Vagrant, Kubernetes, Terraform, Grafana, Loki, Promtail, Cloudflare Tunnel*  
+  Infrastructure project to explore how to use a homelab in-house, exposing services using Cloudflare Tunnel.
+
+- **[Pudim Score Calculator](https://github.com/luismr/pudim-dev-calculator)** | [Live Demo](https://pudim.dev)  
+  *React, TypeScript, Node.js, shadcn/ui*  
+  A personal, lightweight (and good-humored) Next.js project that demonstrates how to build a service consuming the GitHub API, ranking developers with dessert-themed titles—just for fun! The live demo is always running in my homelab (yes, that's alive).
 
 ## Tools & Technologies
 
