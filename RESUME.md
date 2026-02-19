@@ -9,7 +9,7 @@
 
 ## Professional Summary
 
-Experienced Software Architect and Engineering Leader with over 20 years of hands-on experience designing, modernizing, and scaling high-performance, resilient systems. Proven track record in fintech, SaaS, and telecom, with deep expertise in cloud-native solutions (AWS, GCP), microservices, DevOps, and full-stack delivery. Skilled in leading global teams, implementing CI/CD pipelines, and aligning architecture with business impact. Passionate about leveraging AI tools and developing agent-based solutions to support engineering and architecture teams, significantly increasing productivity and accelerating delivery pace.
+Experienced Software Architect and Engineering Leader with over 20 years of hands-on experience designing, modernizing, and scaling high-performance, resilient systems. Proven track record in fintech, SaaS, telecom, and e-commerce, with deep expertise in cloud-native solutions (AWS, GCP), microservices, DevOps, and full-stack delivery using Java, TypeScript, React, and modern frameworks. Skilled in leading global teams, implementing CI/CD pipelines, architecting enterprise integrations (billing, CRM, provisioning), and aligning architecture with business impact. Passionate about leveraging AI coding tools (Cursor, Claude, OpenAI) and developing agent-based solutions to accelerate engineering productivity and delivery pace.
 
 ## Core Competencies
 
@@ -17,7 +17,10 @@ Experienced Software Architect and Engineering Leader with over 20 years of hand
 - Backend & Full-Stack Engineering (Java, Spring Boot, Python, .NET, React, Angular, Vue)  
 - Cloud Computing (AWS, GCP), Kubernetes, Docker  
 - CI/CD & DevOps (GitHub Actions, Jenkins, Bamboo, Terraform, Ansible)  
-- Frontend Development with React, Vue, Angular, TypeScript  
+- TypeScript & Frontend Development (React, Vue, Angular)  
+- AI-Augmented Development (Cursor, Claude, OpenAI) & Agent-Based Workflows  
+- Enterprise Integration Architecture (APIs, ERP-Adjacent Flows, Data Pipelines)  
+- E-Commerce Platform Development & Modernization  
 - Microservices & Event-Driven Systems (RabbitMQ, Kafka)  
 - Scalable, Secure Systems Design (OAuth2, OpenID, JWT, PCI DSS)  
 - Technical Leadership & Team Mentorship  
@@ -46,6 +49,7 @@ Experienced Software Architect and Engineering Leader with over 20 years of hand
 ### **Trustly** – Head of Software Architecture  
 **Sep 2022 – Feb 2025 | Vitória, Brazil**  
 - Led cloud-native architecture of real-time payment platform (Java, AWS, Spring Boot)  
+- Defined integration architecture connecting payment platform with downstream banking and upstream merchant systems via APIs and event-driven messaging  
 - Designed microservices, CI/CD (GitHub Actions, Bamboo), and automated infrastructure  
 - Achieved 99.99% uptime during high-traffic events like the Super Bowl  
 - Reduced transaction latency by 40% and improved overall reliability  
@@ -66,13 +70,15 @@ Experienced Software Architect and Engineering Leader with over 20 years of hand
 ### **LigFlat Telecom** – Founder & Software Architect  
 **Aug 2013 – Dec 2019 | Uberlândia, Brazil**  
 - Developed complete OSS/BSS platform, integrating VoIP, billing, and CRM  
+- Architected end-to-end enterprise integration flows connecting billing, CRM, and provisioning systems — ERP-adjacent patterns with APIs, event-driven messaging, and automated data pipelines  
 - Architected systems using Java, MySQL, and telecom protocols (SMPP, SIP)  
 - Automated network provisioning with Ansible and deployed via Bamboo  
 
 ### **Algar Telecom** – QA Engineering Manager  
 **Jul 2008 – Dec 2012 | Uberlândia, Brazil**  
 - Managed software quality, QA processes, and platform optimization  
-- Delivered stable portals and ecommerce platforms with .NET and Oracle  
+- Delivered stable portals and e-commerce platforms (.NET, Oracle), including product catalog, checkout, and order management flows  
+- E-commerce domain expertise in telecom retail, readily transferable to modern platforms such as Shopify and Shopify Plus  
 
 ## Education
 
@@ -93,6 +99,8 @@ Universidade da Região da Campanha (1997–2000)
 - English: Fluent (C2 – Proficient)
 
 ## Projects & Portfolio
+
+*Public repos and code samples — company codebases from past employers are in private repositories.*
 
 - **[Real-Time Flight Tracker](https://github.com/luismr/realtime-flight-tracker)**  
   *Java, Python, TypeScript, React, Kafka*  
@@ -126,4 +134,5 @@ Universidade da Região da Campanha (1997–2000)
 **Databases:** PostgreSQL, MySQL, SQL Server, Oracle  
 **Messaging & Integration:** Kafka, RabbitMQ, ActiveMQ, SQS  
 **Security:** OAuth2, OpenID, JWT, PCI DSS  
-**Monitoring:** Prometheus, Grafana, AWS CloudWatch
+**Monitoring:** Prometheus, Grafana, AWS CloudWatch  
+**AI & Productivity:** Cursor, Claude (Anthropic), OpenAI, GitHub Copilot
